@@ -1,0 +1,374 @@
+/* Wireframe */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 1728px;
+height: 1857px;
+
+background: #FFFFFF;
+
+
+/* Frame 1010106070 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 24px;
+gap: 10px;
+
+width: 1728px;
+height: 88px;
+
+background: #523123;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* chocolatier-logo 1 */
+
+margin: 0 auto;
+width: 127.66px;
+height: 40px;
+
+background: url(chocolatier-logo);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1010106072 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+margin: 0 auto;
+width: 131px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Home */
+
+width: 54px;
+height: 24px;
+
+font-family: 'Gotham';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sobre */
+
+width: 53px;
+height: 24px;
+
+/* Regular/Subtítulo
+
+Título do assunto
+*/
+font-family: 'Gotham';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Neutras/Escuro/Primeiro plano 2 */
+color: #D1D1D1;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1010106071 */
+
+width: 1728px;
+height: 1769px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* chocolatier-logo-Dark 1 */
+
+position: absolute;
+width: 300px;
+height: 94px;
+left: 1372px;
+top: 1642px;
+
+background: url(chocolatier-logo-Dark.png);
+
+
+/* Descubra o Sabor da Sofisticação */
+
+position: absolute;
+width: 786px;
+height: 156px;
+left: 116px;
+top: 58px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+
+/* Neutras/Claro/Primeiro plano */
+color: #242424;
+
+
+
+/* Uma jornada deliciosa começa aqui */
+
+position: absolute;
+width: 1466px;
+height: 78px;
+left: 121px;
+top: 875px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+/* identical to box height */
+
+/* Neutras/Claro/Primeiro plano */
+color: #242424;
+
+
+
+/* A partir de R$ 149,00/mês com frete grátis */
+
+position: absolute;
+width: 807px;
+height: 100px;
+left: 116px;
+top: 518px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 50px;
+/* or 104% */
+
+/* Neutras/Claro/Primeiro plano */
+color: #242424;
+
+
+
+/* Ellipse 2 */
+
+position: absolute;
+visibility: hidden;
+width: 48px;
+height: 48px;
+left: 116px;
+top: 731px;
+
+background: #384937;
+
+
+/* Vector_6 */
+
+position: absolute;
+left: 68.23%;
+right: 23.09%;
+top: 40.14%;
+bottom: 48.98%;
+
+border: 2px solid #FFFFFF;
+
+
+/* Vector_7 */
+
+position: absolute;
+left: 69.73%;
+right: 28.65%;
+top: 42.66%;
+bottom: 54.71%;
+
+border: 2px solid #FFFFFF;
+
+
+/* Vector_8 */
+
+position: absolute;
+left: 70.2%;
+right: 23.09%;
+top: 43.63%;
+bottom: 48.98%;
+
+border: 2px solid #FFFFFF;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 650px;
+height: 108px;
+left: 116px;
+top: 670px;
+
+background: #1D1D1F;
+border-radius: 20px;
+
+
+/* Quero Minha Cesta */
+
+position: absolute;
+width: 547px;
+height: 73px;
+left: 167px;
+top: 687px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 32px;
+/* or 80% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Assine o clube Chocolatier Premium e descubra novos sabores todo mês. Cestas com seleção especial, estrega garantida e experiência exclusiva. */
+
+position: absolute;
+width: 681px;
+height: 135px;
+left: 121px;
+top: 266px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 40px;
+/* or 111% */
+
+/* Neutras/Claro/Primeiro plano */
+color: #242424;
+
+
+
+/* Uma seleção exclusiva de chocolates artesanais, brigadeiros gourmet, cookies premium e surpresas super deliciosas, entregues diretamente na sua casa! */
+
+position: absolute;
+width: 1466px;
+height: 135px;
+left: 121px;
+top: 1000px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 40px;
+/* or 111% */
+
+/* Neutras/Claro/Primeiro plano */
+color: #242424;
+
+
+
+/* Exclusividade: produtos artesanais selecionados especialmente para você. Comodidade: entrega mensal no conforto da sua casa. Variedade: novidades e sabores diferentes a cada mês. Flexibilidade: planos mensais, trimestrais e anuais. */
+
+position: absolute;
+width: 1466px;
+height: 393px;
+left: 116px;
+top: 1252px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 90px;
+/* or 250% */
+
+/* Neutras/Claro/Primeiro plano */
+color: #242424;
+
+
+
+/* Benefícios: */
+
+position: absolute;
+width: 378px;
+height: 86px;
+left: 121px;
+top: 1166px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+
+/* Neutras/Claro/Primeiro plano */
+color: #242424;
+
+
+
+/* image */
+
+position: absolute;
+width: 758px;
+height: 757px;
+left: 874px;
+top: 80px;
+
+background: url(image.png);
