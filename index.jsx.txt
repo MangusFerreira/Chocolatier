@@ -1,0 +1,160 @@
+import { Button } from "@/components/ui/button";
+import React from "react";
+
+export default function Wireframe() {
+  // Data for navigation items
+  const navItems = [
+    { name: "Home", active: true },
+    { name: "Sobre", active: false },
+  ];
+
+  // Data for benefits
+  const benefits = [
+    {
+      title: "Exclusividade:",
+      description: "produtos artesanais selecionados especialmente para você.",
+    },
+    {
+      title: "Comodidade:",
+      description: "entrega mensal no conforto da sua casa.",
+    },
+    {
+      title: "Variedade:",
+      description: "novidades e sabores diferentes a cada mês.",
+    },
+    {
+      title: "Flexibilidade:",
+      description: "planos mensais, trimestrais e anuais.",
+    },
+  ];
+
+  return (
+    <div className="flex flex-col min-h-screen bg-white">
+      {/* Header */}
+      <header className="flex items-center justify-between p-6 w-full bg-[#523123]">
+        <img
+          className="w-[127.66px] h-10 object-cover"
+          alt="Chocolatier logo"
+          src=""
+        />
+
+        <nav className="flex items-center gap-6">
+          {navItems.map((item, index) => (
+            <a
+              key={index}
+              href="#"
+              className={`font-medium text-lg ${
+                item.active
+                  ? "text-white underline"
+                  : "text-neutrasescuroprimeiro-plano-2 font-regular-subt-tulo"
+              }`}
+            >
+              {item.name}
+            </a>
+          ))}
+        </nav>
+      </header>
+
+      {/* Main Content */}
+      <main className="flex-1 px-[116px] py-[57px]">
+        {/* Hero Section */}
+        <section className="flex flex-col md:flex-row gap-8 mb-20">
+          <div className="flex-1">
+            <h1 className="font-['Montserrat-Bold',Helvetica] font-bold text-neutrasclaroprimeiro-plano text-[64px] leading-tight mb-10">
+              Descubra o Sabor da Sofisticação
+            </h1>
+
+            <p className="font-['Montserrat-Medium',Helvetica] font-medium text-neutrasclaroprimeiro-plano text-4xl leading-10 mb-16">
+              Assine o clube Chocolatier Premium e descubra novos sabores todo
+              mês.
+              <br />
+              Cestas com seleção especial, estrega garantida e experiência
+              exclusiva.
+            </p>
+
+            <h2 className="font-['Montserrat-Bold',Helvetica] font-bold text-neutrasclaroprimeiro-plano text-5xl leading-[50px] mb-12">
+              A partir de R$ 149,00/mês
+              <br />
+              com frete grátis
+            </h2>
+
+            <Button className="w-[650px] h-[108px] bg-[#1d1d1f] rounded-[20px] hover:bg-[#333336]">
+              <span className="font-['Montserrat-Bold',Helvetica] font-bold text-white text-[40px]">
+                Quero Minha Cesta
+              </span>
+            </Button>
+          </div>
+
+          <div className="relative flex-1">
+            <img
+              className="w-full max-w-[758px] h-auto object-cover"
+              alt="Chocolate gift basket"
+              src=""
+            />
+            <div className="absolute bottom-0 right-0">
+              <img
+                className="w-[152px] h-[195px]"
+                alt="Vector decoration"
+                src=""
+              />
+              <img
+                className="absolute w-[30px] h-12 top-[45px] left-[26px]"
+                alt="Vector decoration"
+                src=""
+              />
+              <img
+                className="absolute w-[118px] h-[134px] top-[60px] left-[34px]"
+                alt="Vector decoration"
+                src=""
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Journey Section */}
+        <section className="mb-16">
+          <h2 className="font-['Montserrat-Bold',Helvetica] font-bold text-neutrasclaroprimeiro-plano text-[64px] leading-normal mb-10">
+            Uma jornada deliciosa começa aqui
+          </h2>
+
+          <p className="font-['Montserrat-Medium',Helvetica] font-medium text-neutrasclaroprimeiro-plano text-4xl leading-10 mb-16">
+            Uma seleção exclusiva de chocolates artesanais, brigadeiros gourmet,
+            cookies premium e surpresas super deliciosas, entregues diretamente
+            na sua casa!
+          </p>
+        </section>
+
+        {/* Benefits Section */}
+        <section>
+          <h2 className="font-['Montserrat-Bold',Helvetica] font-bold text-neutrasclaroprimeiro-plano text-[40px] leading-10 mb-8">
+            Benefícios:
+          </h2>
+
+          <ul className="space-y-4">
+            {benefits.map((benefit, index) => (
+              <li key={index} className="text-4xl leading-[90px]">
+                <span className="font-['Montserrat-Bold',Helvetica] font-bold text-neutrasclaroprimeiro-plano">
+                  {benefit.title}
+                </span>{" "}
+                <span className="font-['Montserrat-Medium',Helvetica] font-medium text-neutrasclaroprimeiro-plano">
+                  {benefit.description}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </main>
+
+      {/* Footer */}
+      <footer className="px-[116px] py-10">
+        <div className="flex justify-end">
+          <img
+            className="w-[300px] h-[94px] object-cover"
+            alt="Chocolatier logo dark"
+            src=""
+          />
+        </div>
+      </footer>
+    </div>
+  );
+}
